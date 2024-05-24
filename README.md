@@ -7,9 +7,6 @@
 - **Responsive Design:** Ensures the calculator is accessible and functional on both desktop and mobile devices.
 - **User-Friendly Interface:** Simple and intuitive layout for ease of use.
 
-## Live Demo
-
-Experience the Grade Calculator in action [here](https://your-live-demo-link.com).
 
 ## Usage
 
