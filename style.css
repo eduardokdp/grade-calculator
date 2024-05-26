@@ -1,0 +1,257 @@
+
+body {
+    font-family: inter;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+header {
+    background-color: #1bc01be0;
+    width: 100%;
+    color: white;
+    padding: 1.0rem 0rem;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h1{
+    color: #1f85de;
+    margin-left: 1.0rem;
+    font-size: 35px;
+}
+
+form {
+    border-radius: 1.0rem;
+    padding-left: 1.4rem;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: .4rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 .5px 4px #1f85de79;
+}
+
+label {
+    margin-right: 1.0rem;
+}
+
+input:hover {
+    box-shadow: 0 .7px 4px #1f85dea7;
+}
+
+.weighted-grade-calculator {
+    display: flex;
+    flex-direction: column;
+    margin: 2.0rem;
+    background-color: white;
+    border-radius: 1.0rem;
+    padding: 1.0rem
+}
+
+.final-grade-calculator {
+    display: flex;
+    flex-direction: column;
+    margin: 2.0rem;
+    background-color: white;
+    border-radius: 1.0rem;
+    padding: 1.0rem
+}
+
+#calc-button, #calc-button1 {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #1f85de;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#calc-button1 {
+    margin-left: 1.0rem;
+}
+
+#calc-button:hover, #calc-button1:hover {
+    background-color: #1761a2;
+    transition: 0.2s ease-in-out;
+}
+
+#add-row {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #1bc01b;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#add-row:hover {
+    background-color: #159715;
+    transition: 0.2s ease-in-out;
+}
+
+#result, #result1 {
+    width: 288px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#reset-button {
+    background-color: #b9b9b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-left: 1.0rem;
+    font-size: 16px;
+}
+
+#reset-button:hover {
+    background-color: #7a7a7a;
+    transition: 0.2s ease-in-out;
+}
+
+.result-container {
+    display: flex;
+    margin-bottom: 1.0rem;
+    margin-top: 1.0rem;
+
+}
+
+.final-grade-header {
+    display: flex;
+}
+
+#grade-header {
+    padding-left: 3.2rem;
+}
+
+#weight-header {
+    padding-left: 2.0rem;
+}
+
+.final-grade-calculator input {
+    width: 120px;
+}
+
+th {
+    background-color: #1bc01b;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+td {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #1f85dea7;
+}
+
+.letter-grade-table {
+    margin: 1.0rem;
+}
+
+#grades-section > div {
+    margin-bottom: 0.5rem;
+}
+
+#grades-section input[type="text"] {
+    width: 120px;
+}
+
+#grades-section input[type="number"] {
+    width: 80px;
+}
+
+.weighted-calc-explanations {
+    margin-left: 1.0rem;
+}
+
+h3 {
+    color: #1f85de;
+    font-size: 1.4em;
+}
+
+.example {
+    font-family: 'Times New Roman';
+    font-size: 1.4em;
+    padding-bottom: 0.4rem
+}
+
+span {
+    font-style: italic;
+}
+
+.given-example {
+    line-height: 30px;
+    padding-bottom: 1.0rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1.0rem;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 490px) {
+
+    .weighted-grade-calculator {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    #grade-header {
+        padding-left: 2.0rem;
+    }
+    #weight-header {
+        padding-left: 2.0rem;
+    }
+    #grades-section input[type="number"] {
+        width: 80px;
+    }
+    #grades-section input[type="text"] {
+        width: 100px;
+    }
+    #reset-button {
+        margin-right: 1.0rem;
+    }
+    .weighted-calc-explanations {
+        margin-right: 1.0rem;
+        font-size: 0.8rem;
+    }
+    .final-grade-calculator {
+        margin: 0;
+        padding: 0;
+    }
+
+    .letter-grade-table {
+        display: none;
+    }
+
+    .final-grade-calculator input {
+        width: 79.2px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .weighted-grade-calculator h1 {
+        font-size: 28px;
+    }
+}
